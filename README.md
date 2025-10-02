@@ -21,7 +21,8 @@ Este proyecto utiliza como insumo las minutas del Banco de México, que forman p
 ###  Instrucciones para reproducir
 1. Descargue el archivo [`final_data.csv`](https://github.com/gtfintechlab/WorldCentralBanks/raw/main/final_data/bank_of_mexico/final_data.csv).  
 2. Guárdelo en la carpeta `data/` de este repositorio.  
-3. Ejecute el cuaderno `banxico_lstm_sentiment_clean.ipynb`.  
+3. Ejecute el cuaderno `banxico_lstm_sentiment_clean.ipynb`.
+
 
 Ejemplo de carga en Python:
 ```python
@@ -34,6 +35,7 @@ df = pd.read_csv(csv_path)
 
 print(df.head())
 
+```
 
 ## 🔁 Reproducibilidad rápida (Demo sin datos externos)
 
