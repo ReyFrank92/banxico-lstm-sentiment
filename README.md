@@ -33,3 +33,13 @@ csv_path = Path("data/final_data.csv")
 df = pd.read_csv(csv_path)
 
 print(df.head())
+
+
+## 🔁 Reproducibilidad rápida (Demo sin datos externos)
+
+Si no desea descargar los datos reales todavía, puede ejecutar una demo mínima que entrena un modelo con ejemplos internos.  
+
+En la terminal, desde la carpeta del repositorio:  
+```bash
+pip install -r requirements.txt
+python run_demo.py
