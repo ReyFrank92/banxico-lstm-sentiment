@@ -3,7 +3,7 @@
 Repositorio anexo del ensayo. Implementa una red LSTM para clasificar el tono monetario de minutas del Banco de México.
 
 ## Contenido
-- `banxico_lstm_sentiment_clean.ipynb`: cuaderno principal (sin comentarios en el código).
+- `banxico_lstm_sentiment.ipynb`: cuaderno principal (sin comentarios en el código).
 - `src_main_clean.py`: script Python exportado del cuaderno.
 - `.gitignore`: exclusiones estándar.
 - `requirements.txt`: dependencias estimadas.
